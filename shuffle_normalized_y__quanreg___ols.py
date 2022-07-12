@@ -70,10 +70,6 @@ df=df.sort_values(by="Date").reset_index(drop=True)
 # df=df.sort_values(by="Date").reset_index(drop=True)
 # #df['DA_price_lag1'] = df['DA_price'].shift(1)
 # #df = df[df['DA_price_lag1'].notna()]
-# df.describe()
-
-# df=df.sort_values(by="Date").reset_index(drop=True)
-# train_df, test_df = train_test_split(df, test_size=0., shuffle=True)
 
 # Normalization
 # mean = train_df_var.mean(axis=0)
